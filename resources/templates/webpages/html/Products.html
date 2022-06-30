@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/Products_style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83ad301f5a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/Products.js"></script>
+</head>
+
+<body class="page_body">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="main_page">
+    <div class="title">
+        <h1 class="main_title">Simple Product MS</h1>
+        <h4 class="sub_title">Made by Saied Aussi</h4>
+    </div>
+
+    <div class="content_body">
+
+        <div class="table_action_buttons">
+            <button id="refreshButton" type="button" class="btn btn-secondary btn-sm"><i class="fas fa-rotate"></i></button>
+            <button type="button" data-toggle="modal" data-target="#addModal" class="btn btn-secondary btn-sm"><i class="fas fa-add"></i></button>
+        </div>
+
+        <div class="content_table">
+            <table id="products_table" class="table table-striped table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">Product ID</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Product Price</th>
+                    <th scope="col">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<div id="addModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="add_popup">
+                    <form>
+                        <div class="form-group">
+                            <label for="add_product_name">Product Name</label>
+                            <input type="text" class="form-control" id="add_product_name" placeholder="Enter product name">
+                        </div>
+                        <div class="form-group">
+                            <label for="add_product_price">Product Price</label>
+                            <input type="number" class="form-control" id="add_product_price" placeholder="Enter product price">
+                        </div>
+                        <div class="popup_submit">
+                            <button id="add_popup_button" type="submit" class="btn btn-secondary btn-sm">
+                                Add
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="updateModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Edit Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="add_popup">
+                    <form>
+                        <div class="form-group">
+                            <label for="edit_product_name">Product Name</label>
+                            <input type="text" class="form-control" id="edit_product_name" placeholder="Enter product name">
+                        </div>
+                        <div class="form-group">
+                            <label for="edit_product_price">Product Price</label>
+                            <input type="number" class="form-control" id="edit_product_price" placeholder="Enter product price">
+                        </div>
+                        <div class="popup_submit">
+                            <button id="edit_popup_button" type="submit" class="btn btn-secondary btn-sm">
+                                Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

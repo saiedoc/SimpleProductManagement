@@ -1,0 +1,103 @@
+2022-06-30 15:13:51.316  INFO 21012 --- [restartedMain] c.e.productapp.ProductappApplication     : Starting ProductappApplication using Java 18.0.1.1 on saied-Lenovo-Y520-15IKBN with PID 21012 (/home/saied/Downloads/productapp/target/classes started by saied in /home/saied/Downloads/productapp)
+2022-06-30 15:13:51.327  INFO 21012 --- [restartedMain] c.e.productapp.ProductappApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:13:51.417  INFO 21012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 15:13:51.417  INFO 21012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30 15:13:52.056  INFO 21012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:13:52.071  INFO 21012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-06-30 15:13:52.664  INFO 21012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:13:52.672  INFO 21012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:13:52.672  INFO 21012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:13:52.733  INFO 21012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:13:52.734  INFO 21012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1316 ms
+2022-06-30 15:13:52.882  INFO 21012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:13:52.946  INFO 21012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:13:53.091  INFO 21012 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:13:53.172  INFO 21012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:13:53.493  INFO 21012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:13:53.507  INFO 21012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-30 15:13:53.991  INFO 21012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:13:53.998  INFO 21012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:13:54.088  WARN 21012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:13:54.375  INFO 21012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-30 15:13:54.423  INFO 21012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-30 15:13:54.434  INFO 21012 --- [restartedMain] c.e.productapp.ProductappApplication     : Started ProductappApplication in 3.55 seconds (JVM running for 4.239)
+2022-06-30 15:13:57.071  INFO 21012 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:13:57.075  INFO 21012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:13:57.091  INFO 21012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:21:50.699  INFO 22281 --- [restartedMain] c.e.productapp.ProductappApplication     : Starting ProductappApplication using Java 18.0.1.1 on saied-Lenovo-Y520-15IKBN with PID 22281 (/home/saied/Downloads/productapp/target/classes started by saied in /home/saied/Downloads/productapp)
+2022-06-30 15:21:50.700  INFO 22281 --- [restartedMain] c.e.productapp.ProductappApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:21:50.771  INFO 22281 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-30 15:21:50.772  INFO 22281 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-30 15:21:51.382  INFO 22281 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:21:51.395  INFO 22281 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-06-30 15:21:51.983  INFO 22281 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-30 15:21:51.992  INFO 22281 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-30 15:21:51.992  INFO 22281 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-30 15:21:52.048  INFO 22281 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-30 15:21:52.051  INFO 22281 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2022-06-30 15:21:52.231  INFO 22281 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:21:52.273  INFO 22281 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:21:52.399  INFO 22281 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:21:52.482  INFO 22281 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:21:52.759  INFO 22281 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:21:52.771  INFO 22281 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-30 15:21:53.249  INFO 22281 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:21:53.255  INFO 22281 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:21:53.346  WARN 22281 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:21:53.657  INFO 22281 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-30 15:21:53.687  INFO 22281 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-30 15:21:53.696  INFO 22281 --- [restartedMain] c.e.productapp.ProductappApplication     : Started ProductappApplication in 3.438 seconds (JVM running for 4.06)
+2022-06-30 15:21:56.325  INFO 22281 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:21:56.328  INFO 22281 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:21:56.341  INFO 22281 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:22:12.529  INFO 22424 --- [main] c.e.p.ProductappApplicationTests         : Starting ProductappApplicationTests using Java 11.0.15 on saied-Lenovo-Y520-15IKBN with PID 22424 (started by saied in /home/saied/Downloads/productapp)
+2022-06-30 15:22:12.531  INFO 22424 --- [main] c.e.p.ProductappApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:22:13.138  INFO 22424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:22:13.149  INFO 22424 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2022-06-30 15:22:13.601  INFO 22424 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:22:13.651  INFO 22424 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:22:13.798  INFO 22424 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:22:13.893  INFO 22424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:22:14.234  INFO 22424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:22:14.249  INFO 22424 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-30 15:22:14.755  INFO 22424 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:22:14.763  INFO 22424 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:22:15.003  WARN 22424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:22:15.510  INFO 22424 --- [main] c.e.p.ProductappApplicationTests         : Started ProductappApplicationTests in 3.269 seconds (JVM running for 4.088)
+2022-06-30 15:22:15.650  INFO 22424 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:22:15.654  INFO 22424 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:22:15.692  INFO 22424 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:24:49.470  INFO 23394 --- [main] c.e.p.ProductappApplicationTests         : Starting ProductappApplicationTests using Java 11.0.15 on saied-Lenovo-Y520-15IKBN with PID 23394 (started by saied in /home/saied/Downloads/productapp)
+2022-06-30 15:24:49.471  INFO 23394 --- [main] c.e.p.ProductappApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:24:50.141  INFO 23394 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:24:50.155  INFO 23394 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-06-30 15:24:50.631  INFO 23394 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:24:50.691  INFO 23394 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:24:50.875  INFO 23394 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:24:50.983  INFO 23394 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:24:51.356  INFO 23394 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:24:51.375  INFO 23394 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-30 15:24:51.922  INFO 23394 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:24:51.931  INFO 23394 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:24:52.184  WARN 23394 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:24:52.699  INFO 23394 --- [main] c.e.p.ProductappApplicationTests         : Started ProductappApplicationTests in 3.545 seconds (JVM running for 4.576)
+2022-06-30 15:24:52.834  INFO 23394 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:24:52.840  INFO 23394 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:24:52.872  INFO 23394 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-30 15:25:29.966  INFO 23523 --- [main] c.e.p.ProductappApplicationTests         : Starting ProductappApplicationTests using Java 11.0.15 on saied-Lenovo-Y520-15IKBN with PID 23523 (started by saied in /home/saied/Downloads/productapp)
+2022-06-30 15:25:29.968  INFO 23523 --- [main] c.e.p.ProductappApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 15:25:30.527  INFO 23523 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-30 15:25:30.539  INFO 23523 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-06-30 15:25:30.982  INFO 23523 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-30 15:25:31.025  INFO 23523 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-06-30 15:25:31.165  INFO 23523 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-30 15:25:31.260  INFO 23523 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-30 15:25:31.541  INFO 23523 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-30 15:25:31.557  INFO 23523 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-06-30 15:25:32.080  INFO 23523 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-30 15:25:32.089  INFO 23523 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:25:32.327  WARN 23523 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-30 15:25:32.818  INFO 23523 --- [main] c.e.p.ProductappApplicationTests         : Started ProductappApplicationTests in 3.138 seconds (JVM running for 3.931)
+2022-06-30 15:25:32.956  INFO 23523 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-30 15:25:32.959  INFO 23523 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-30 15:25:32.992  INFO 23523 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
